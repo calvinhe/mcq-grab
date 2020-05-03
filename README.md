@@ -26,7 +26,8 @@ checking all of the student’s responses.
     that are not pdfs (e.g. word documents), they just will be skipped.
 3)  Double click `mcq-grab.Rproj`
 4)  Open runme.R –\> Hit Ctrl+Shift+Enter
-5)  The output should save in the folder `output`.
+5)  The output should save in your working directory as a file called:
+    `mcq_answers.csv`.
 6)  CHECK THE OUTPUTS\!\!
 7)  You should be able to more or less copy and paste this into the
     marking template.
