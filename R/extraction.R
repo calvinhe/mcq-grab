@@ -86,6 +86,12 @@ output_checks <- function(output){
     
   }
   
+  # Check if empty
+  if (nrow(output) == 0) {
+    output_mod <- tibble(question = as.character(1:20),
+                         answer = rep("scraper failed", 20) )
+  }
+  
   return(output_mod)
   
 }
